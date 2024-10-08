@@ -2,6 +2,10 @@
 
 This document provides comprehensive information about the User Management API, a RESTful API built with NestJS that allows users to interact with a PostgreSQL database to manage user data.
 
+```Postman API Link
+https://elements.getpostman.com/redirect?entityId=21207467-79be0092-3cb6-4ff7-97f1-e41df12e3844&entityType=collection
+```
+
 ## Table of Contents
 
 - [Features](#features)
