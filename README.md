@@ -2,7 +2,8 @@
 
 This document provides comprehensive information about the User Management API, a RESTful API built with NestJS that allows users to interact with a PostgreSQL database to manage user data.
 
-```Postman API Link
+Postman API Link:
+```
 https://elements.getpostman.com/redirect?entityId=21207467-79be0092-3cb6-4ff7-97f1-e41df12e3844&entityType=collection
 ```
 
@@ -45,10 +46,11 @@ https://elements.getpostman.com/redirect?entityId=21207467-79be0092-3cb6-4ff7-97
 
 1. Clone the repository: `git clone [repository url]`
 2. Install dependencies: `npm install`
-3. Set up the database:
+3. copy and paste the .env.sample to .env and setup the orginal values
+4. Set up the database:
    - Create a PostgreSQL database.
    - Update the database configuration in `src/app.module.ts`.
-4. Run the application: `npm run start`
+5. Run the application: `npm run start`
 
 
 ## API Endpoints
@@ -58,14 +60,14 @@ https://elements.getpostman.com/redirect?entityId=21207467-79be0092-3cb6-4ff7-97
 Endpoint: /users/
 Method: POST
 
-l
 ```json
 {
   "email": "test@test.com",
   "password": "password123"
 }
+```
 
-### Login User
+### Login
 Endpoint: /users/login
 Method: POST
 
